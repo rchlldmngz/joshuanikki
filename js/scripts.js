@@ -97,7 +97,7 @@ $(document).ready(function () {
                     "padding": "10px 0px"
                 });
                 $('header .member-actions').css({
-                    "top": "20px",
+                    "top": "10px",
                 });
                 $('header .navicon').css({
                     "top": "30px",
@@ -109,7 +109,7 @@ $(document).ready(function () {
                     "padding": "10px 0px"
                 });
                 $('header .member-actions').css({
-                    "top": "20px",
+                    "top": "10px",
                 });
                 $('header .navicon').css({
                     "top": "30px",
@@ -185,17 +185,17 @@ $(document).ready(function () {
         },
         data: {
             // Event title
-            title: "Carlo and Lovely's Wedding",
+            title: "Joshua and Nikki's Wedding",
 
             // Event start date
-            start: new Date('Dec 18, 2021 13:30'),
+            start: new Date('May 25, 2022 14:00'),
 
             // You can also choose to set an end time
             // If an end time is set, this will take precedence over duration
-            end: new Date('Dec 18, 2021 21:00'),
+            end: new Date('May 25, 2022 21:00'),
 
             // Event Address
-            address: 'SANTUARIO DE SAN JOSE PARISH, East Greenhills, Mandaluyong',
+            address: 'ST. BENEDICT PARISH, Silang Cavite',
 
             // Event Description
             description: "We can't wait to see you on our big day."
@@ -226,7 +226,7 @@ $(document).ready(function () {
         
         // if attending, validate invite code
 
-        $.post('https://script.google.com/macros/s/AKfycbxX6z2_ycPtBrIv-XVg2UU7uwd2qLecJjcv7iiou9Y0BFuDkvTdlvn40p75qbOPbqOtBA/exec', data)
+        $.post('https://script.google.com/macros/s/AKfycbxFexcPAG_S-qsw10so-7F0_UH1CgOU5qUNv1iuS8C46TFdvV8l8ORdmulrcOLTtVw0/exec', data)
             .done(function (data) {
                 console.log(data);
                 if (data.result === "error") {

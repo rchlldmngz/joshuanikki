@@ -10,7 +10,7 @@ p {
 
 h1 {
     font-size: 60px;
-    color: #63748B;
+    color: #B38955;
 }
 
 h2 {
@@ -20,7 +20,7 @@ h2 {
 }
 
 h3 {
-    color: #63748B;
+    color: #B38955;
     font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
@@ -34,18 +34,18 @@ h4 {
 
 h5 {
     font-size: 18px;
-    color: #63748B;
+    color: #B38955;
     font-weight: bold;
     text-transform: uppercase;
     font-weight: bold
 }
 
 h6 {
-    color: #63748B;
-    font-size: 50px;
+    color: #B38955;
+    font-size: 30px;
     letter-spacing: 0px;
     line-height: 29px;
-    font-family: 'aerotis', sans-serif;
+    font-family: 'halimun', sans-serif;
     padding-top: 40px;
                                                 
 }
@@ -85,20 +85,20 @@ h6 {
 /*submit*/
 .btn-fill {
     color: #fff;
-    border: solid 2px #63748B;
+    border: solid 2px #B38955;
     -moz-border-radius: 40px;
     -webkit-border-radius: 40px;
     border-radius: 40px;
     display: inline-block;
     text-transform: uppercase;
-    background-color: #63748B
+    background-color: #B38955
 }
 
 .btn-fill:hover,
 .btn-fill:focus {
     color: black;
-    background-color: #8ab7f7;
-    border-color: #8ab7f7
+    background-color: #cca371;
+    border-color: #cca371
 }
 
 .btn-small {
@@ -129,7 +129,7 @@ h6 {
 }
 /*floating arrow bottom*/
 a {
-    color: #63748B;
+    color: #B38955;
     -webkit-transition-timing-function: ease;
     transition-timing-function: ease;
     -webkit-transition-duration: 200ms;
@@ -149,7 +149,7 @@ body {
     font-weight: 300;
     color: black;
     -webkit-text-size-adjust: 100%;
-    background: white;
+    background: #F6EBE6;
 
 }
 
@@ -356,7 +356,7 @@ section .header {
 }
 
 .nav-toggle span:after {
-    bottom: -10px
+    bottom: 20px
 }
 
 .nav-toggle span,
@@ -415,7 +415,7 @@ section .header {
 }
 /*floating Arrow top*/
 .hero .down-arrow a {
-    color: #63748B
+    color: #cca371
 }
 /*not in use*/
 .hero h1 {
@@ -449,7 +449,7 @@ section .header {
 .fixed {
     padding: 0px 0px;
     position: fixed;
-    background-color: #63748bf1;
+    background-color: #b18654f3;
     z-index: 999;
     width: 100%
 }
@@ -479,7 +479,7 @@ header .logo {
 }
 
 header .logo img {
-    height: 75px;
+    width: 300px;
 }
 
 header ul.primary-nav {
@@ -524,8 +524,8 @@ header .header-nav {
 
 header .member-actions {
     position: absolute;
-    right: 0;
-    top: 20px;
+    right: 10px;
+    top: 10px;
     transition: all 300ms ease-in-out
 }
 
@@ -835,10 +835,17 @@ header .member-actions {
 }
 
 #swatches img {
-    width: 10%
+    width: 40%
 }
 
-#wear img,
+#swatches2 img {
+    width: 25%
+}
+
+#wear img {
+    width: 100%;
+}
+
 #gift img {
     width: 70%
 }
@@ -1012,7 +1019,7 @@ header .member-actions {
 }
 /*RSVP Icons*/
 .rsvp .rsvp-form .form-input-group i {
-    color: #63748B;
+    color: #B38955;
     font-size: 14px
 }
 
@@ -1116,7 +1123,7 @@ ol {
 
 
 strong {
-      Color: #63748B
+      Color: #B38955
 }
 
 iframe {
